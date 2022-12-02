@@ -1,0 +1,34 @@
+.section {
+  padding: calc(48px / 2) 0;
+  @media screen and (min-width: 1024px) {
+    & {
+      padding: calc(112px / 2) 0;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    & {
+      padding: calc(136px / 2) 0;
+    }
+  }
+}
+.section--no-padding-bottom {
+  padding-bottom: 0;
+}
+.section--no-padding-top {
+  padding-top: 0;
+}
+.section__title {
+  @include text(32px, 40px);
+  @include font-styling(('Poppins', sans-serif), 600, #272e35);
+  text-align: center;
+  @media screen and (min-width: 1024px) {
+    & {
+      @include text(40px, 48px);
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    & {
+      @include text(48px, 56px);
+    }
+  }
+}
