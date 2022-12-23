@@ -1,0 +1,59 @@
+.hero {
+}
+
+.hero__content {
+}
+
+.hero__suptitle {
+  margin-bottom: 16px;
+}
+
+.hero__title {
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  margin-bottom: 32px;
+}
+
+.hero__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.hero__try-btn {
+}
+
+.hero__watch-btn {
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__content {
+    width: 372px;
+  }
+
+  .hero__suptitle {
+    margin-bottom: 16px;
+  }
+
+  .hero__text {
+    margin-bottom: 40px;
+    max-width: 289px;
+  }
+
+  .hero__buttons {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__content {
+    width: 544px;
+  }
+
+  .hero__text {
+    @include text(20px, 24px);
+  }
+}

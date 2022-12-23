@@ -1,0 +1,21 @@
+@mixin text($fs: inherit, $lh: false, $ls: inherit) {
+  font-size: $fs;
+  @if $lh {
+    line-height: calc($lh / $fs);
+  }
+  letter-spacing: $ls;
+}
+@mixin font-styling($ff, $fw: inherit, $c: inherit) {
+  font-family: $ff;
+  font-weight: $fw;
+  color: $c;
+}
+@mixin push-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+@mixin pseudo {
+  display: block;
+  position: absolute;
+  content: '';
+}

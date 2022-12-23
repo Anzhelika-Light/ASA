@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--primary-page-background-color);
+  color: var(--text-color);
+  font-family: var(--main-font-family);
+  @include text(16px, 24px, 0.03em);
+  @include font-styling(('Inter', sans-serif), 500, #6e757c);
+}
+
+main {
+  flex-grow: 1;
+}
