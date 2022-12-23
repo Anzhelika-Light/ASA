@@ -1,0 +1,80 @@
+:root {
+            // LIGHT THEME
+    
+    // background
+  --primary-bg: #eeeff2;
+  --secondary-and-accent-bg: #f7f7f8;
+  --secondary-dark-bg: #283036; //that one with a gradient
+  --secondary-bg-gradient: linear-gradient(135.15deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+
+    //  titles 
+  --title-black-color: #272e35;
+  --title-white-color: #ffffff;
+
+  --subtitle-text-grey-color: #748fb5; //for subtitles, homepage setup steps color, and pricing list style
+  --clients-color: #748fb5;
+
+    // text colors
+  --text-primary-grey-color: #6e757c;
+  --text-secondary-grey-color-1: #6a7986; //in dark section
+  --text-secondary-grey-color-2: #757575; // in testimonials
+  --text-black-color: #272e35;
+  --text-white-color: #ffffff;
+  --accent-text-color: #ff6e30;
+
+    // button colors
+  --btn-orange-color: #FF6E30;
+  --btn-white-fill-color: #EEEFF2;
+  --btn-white-border-color: #272E35;  
+  --btn-dark-fill-color: #2C353D;
+  --btn-dark-border-color: #FFFFFF;
+
+    // stars color
+    --stars-color: #FF6E30;  
+    
+    // contact
+  --contact-form-input-bg: #FFFFFF;
+
+    // modal
+  --modal-input-bg: #35414B;   
+
+
+
+            // DARK THEME
+
+    // background
+  --primary-bg: #1E252B;
+  --secondary-and-accent-bg: #283036;
+  --secondary-dark-bg: #283036; //that one with a gradient
+  --secondary-bg-gradient: linear-gradient(135.15deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+
+    //  titles 
+//   --title-black-color: #272e35;
+  --title-white-color: #ffffff;
+
+  --subtitle-text-grey-color: #748fb5; //for subtitles, homepage setup steps color, and pricing list style
+  --clients-color: #748fb5;
+
+    // text colors
+  --text-primary-grey-color: #6e757c;
+  --text-secondary-grey-color-1: #6a7986; //in dark section
+  --text-secondary-grey-color-2: #757575; // in testimonials
+//   --text-black-color: #272e35;
+  --text-white-color: #ffffff;
+  --accent-text-color: #ff6e30;
+
+    // button colors
+  --btn-orange-color: #FF6E30;
+  --btn-dark-primary-fill-color: #1E252B;
+  --btn-dark-secondary-fill-color: #2C353D; 
+  --btn-dark-border-color: #FFFFFF;
+
+    // stars color
+    --stars-color: #FF6E30;   
+
+    // contact
+  --contact-form-input-bg: #283036;;
+
+    // modal
+  --modal-input-bg: #35414B; 
+}
